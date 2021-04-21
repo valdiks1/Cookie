@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="index.html" method = "GET" id="registration" class="signUp">
+        <legend>Registration</legend>
+        <label for="mail">Email: <p id="wrongMail"></p></label>
+        <input type="email" name="email" id="mail" required>
+        <label for="pass">Password: <p id="wrongPass"></p></label>
+        <input type="password" name="pass" id="pass" required>
+        <label for="repeat">Repeat: <p id="wrongRep"></p></label>
+        <input type="password" name="repeat" id="repeat" required>
+        <input type="submit" id="signUp" value="SignUp">
+    </form>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

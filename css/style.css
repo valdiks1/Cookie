@@ -1,0 +1,26 @@
+.signUp{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+label, input{
+    width: 100%;
+}
+
+legend{
+    text-align: center;
+}
+button#signUp{
+    width: 500px;
+}
+
+.signUp label{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signUp label p{
+    margin: 0;
+    padding: 0;
+    color: red;
+}
